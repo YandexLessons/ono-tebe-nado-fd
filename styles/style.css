@@ -1,13 +1,39 @@
 .header {
-
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 49px 96px 51px;
 }
 
-.menu {
-
+.header__links-list {
+  display: flex;
+  gap: 31.5px;
+  list-style: circle;
 }
 
-.logo {
 
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  justify-self: center;
+  width: 129px;
+  height: 105px;
+}
+
+.header__logo-image {
+  max-height: 100%;
+}
+
+.header__address {
+  max-width: 235px;
+  justify-self: end;
 }
 
 .contacts {
