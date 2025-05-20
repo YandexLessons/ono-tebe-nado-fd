@@ -36,11 +36,58 @@
   justify-self: end;
 }
 
-.contacts {
-
+.cover {
+  position: relative;
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.cover {
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6000000238418579;
+  background-color: #000000;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1.15;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 10px;
+}
+
+.aligned-text_center {
+  line-height: 1;
+  text-align: center;
+}
+
+.aligned-text_right {
+  line-height: 1;
+  text-align: right;
+}
+
+.contacts {
 
 }
 
