@@ -186,6 +186,7 @@
   text-transform: uppercase;
 }
 
+/* у меня тут почему-то есть линии и они не убираются, я уже все испробовал */
 .card__text {
   position: relative;
   z-index: 1;
