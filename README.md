@@ -1,1 +1,1 @@
-https://github.com/YandexLessons/ono-tebe-nado
+https://github.com/YandexLessons/ono-tebe-nado-fd
