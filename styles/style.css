@@ -42,6 +42,7 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -106,7 +107,7 @@
 }
 
 .bet-button {
-  border: 1px #FFF solid;
+  border: 1px currentColor solid;
   padding: 14px 32px;
   color: #FFF;
   font-family: 'Raleway', sans-serif;
@@ -155,24 +156,21 @@
   width: auto;
   height: 100%;
   padding: 50px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card__title {
