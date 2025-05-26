@@ -50,6 +50,7 @@
 .address__item {
   display: block;
   font-size: 18px;
+  font-style: normal;
   line-height: 1.35;
   text-underline-position: under;
 }
@@ -117,9 +118,8 @@
   position: relative;
   z-index: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  gap: 110px;
   padding: 119px 0 0;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .lots {
-  padding: 186px 24px;
+  padding: 186px 24px 120px;
 }
 
 .lots__heading {
@@ -170,6 +170,7 @@
 .card-link {
   display: block;
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -209,7 +210,6 @@
   text-transform: uppercase;
 }
 
-/* у меня тут почему-то есть линии и они не убираются, я уже все испробовал */
 .card__text {
   position: relative;
   z-index: 1;
@@ -231,11 +231,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 4px;
   padding: 1px 14px;
-  margin: -30px -3px;
 }
 
 .about__column {
   justify-self: center;
+  padding-top: 35px;
 }
 
 .about__column_text {
@@ -257,7 +257,7 @@
 }
 
 .about__title {
-  padding: 104px 11px 104px;
+  padding: 103px 11px 104px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -270,7 +270,7 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin: 0px 10px 0px 11px;
+  padding: 0px 15px 10px 11px;
 }
 
 .about__text p {
@@ -280,7 +280,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 214px 50px 80px;
+  padding: 176px 50px 80px;
 }
 
 .footer__social-icon {
